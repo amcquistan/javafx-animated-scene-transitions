@@ -33,7 +33,7 @@ public class App extends Application {
         stackPane = new StackPane();
 
         var anchorPane = new AnchorPane(stackPane);
-        anchorPane.setPrefSize(700, 500);
+        anchorPane.setPrefSize(800, 600);
 
         AnchorPane.setTopAnchor(stackPane, 0.0);
         AnchorPane.setBottomAnchor(stackPane, 0.0);
